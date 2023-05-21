@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+/* ZONE DE JEUX */
+#Playground{
+    margin-top: 80px;
+    width: 80%;
+    height: 800px;
+    background-color: black;
+}
+
+/* DEFINIT LA RAQUETTE DU JOUEUR 1 */
+#joueur1{
+    height: 120px;
+    position: relative;
+    background-color: green;
+    width: 20px;
+    left: 50px;
+    top: 120px;
+    overflow: hidden;
+}
+
+#joueur2{
+    height: 120px;
+    position: relative;
+    background-color: green;
+    width: 20px;
+    left: 1450px;
+    top: 40px;
+    overflow: hidden;
+}
+
+/* LA BALLE QUE LES JOUEURS VONT S'ECHANGER */
+#balle{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 360px;
+    left: 700px;
+    overflow: hidden;
+}
